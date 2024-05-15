@@ -1,0 +1,7 @@
+mode: set
+go-test/main.go:3.14,5.2 0 0
+go-test/auth/auth.go:8.24,10.44 2 1
+go-test/auth/auth.go:10.44,12.3 1 1
+go-test/auth/auth.go:13.2,13.14 1 0
+go-test/shapes/shapes.go:18.35,20.2 1 1
+go-test/shapes/shapes.go:22.32,24.2 1 1
