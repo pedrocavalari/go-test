@@ -7,6 +7,7 @@ import (
 
 func TestArea(t *testing.T) {
 	t.Run("Test Rectangle area", func(t *testing.T) {
+		t.Parallel()
 		r := Rectangle{10, 10}
 		expectedArea := float64(100)
 		receivedArea := r.Area()
@@ -17,6 +18,7 @@ func TestArea(t *testing.T) {
 	})
 
 	t.Run("Test Circle area", func(t *testing.T) {
+		t.Parallel()
 		c := Circle{10}
 		expectedArea := float64(math.Pi * (10 * 10))
 		receivedArea := c.Area()
